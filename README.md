@@ -2,7 +2,7 @@
 
 وی‌پی‌ان متن‌باز برای اندروید. نه اکانت می‌خواد، نه اشتراک، نه کانفیگی که باید بگردی پیدا کنی و کپی کنی. نصبش می‌کنی و Connect رو می‌زنی.
 
-[نسخه‌ها](https://github.com/Amirmahdavi2022/Panther-VPN/releases) · [امنیت](SECURITY.md) · [مشارکت](CONTRIBUTING.md) · [لایسنس‌ها](NOTICE.md)
+[نسخه‌ها](https://github.com/kitewright-dev/Panther-VPN/releases) · [امنیت](SECURITY.md) · [مشارکت](CONTRIBUTING.md) · [لایسنس‌ها](NOTICE.md)
 
 ## چیکار می‌کنه
 
@@ -122,7 +122,7 @@ Prowl هم انتخاب کشور نداره. هر جا که سروری که به
 به JDK 17، اندروید SDK و NDK نسخهٔ `27.2.12479018` نیاز داری.
 
 ```bash
-git clone --recurse-submodules https://github.com/Amirmahdavi2022/Panther-VPN.git
+git clone --recurse-submodules https://github.com/kitewright-dev/Panther-VPN.git
 cd Panther-VPN
 npm run fetch:android
 cd android && ./gradlew assembleRelease
@@ -150,16 +150,8 @@ cd android && ./gradlew testReleaseUnitTest
 - **خود اپ** ریلیزهای گیت‌هاب رو چک می‌کنه و می‌تونه خودش رو آپدیت کنه. SHA-256 رو چک می‌کنه و مطمئن می‌شه APK جدید با همون سرتیفیکیت امضا شده.
 - **NOTICE.md** توی سی‌آی با نسخهٔ هسته‌هایی که بیلد پین کرده مقایسه می‌شه. یه بار از دور افتاد، الان بیلد مستقیم قرمز می‌شه.
 
-## تشکر
-
-قلب Turbo هستهٔ [Aether](https://github.com/CluvexStudio/Aether) از **CluvexStudio** ــه. بدون اون، پنتر اصلاً راه نمی‌افتاد. Global و Prowl هم روی شبکه‌های فیلترشده از داخل همین تونل بالا میان، پس عملاً همه‌چی یه جوری به این هسته تکیه داره. دمشون گرم 🙏
-
-نسخهٔ اول پنتر هم از [AetherGUI](https://github.com/hamvex/AetherGUI) شروع شد و از اونجا به بعد کم‌کم شد چیزی که الان می‌بینی. ممنون از سازنده‌اش هم.
-
-اگه از پنتر خوشت اومد، یه ستاره هم به Aether بده، حقشونه.
-
 ## لایسنس
 
-پنتر AGPL-3.0 ــه و روی کار بقیه ساخته شده. اسم‌ها و لایسنس‌ها توی [NOTICE.md](NOTICE.md) هست.
+پنتر AGPL-3.0 ــه. لایسنس کدهای استفاده‌شده توی [NOTICE.md](NOTICE.md) هست.
 
-پنتر به هیچ‌کدوم از اون پروژه‌ها وابسته نیست و از طرفشون تأیید نشده، پس لطفاً باگ‌های پنتر رو براشون نفرست.
+پنتر یه پروژهٔ مستقله، پس باگ‌هاش رو فقط همین‌جا گزارش بده.
